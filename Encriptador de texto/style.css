@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Inter:wght@300&family=Lato:wght@100&family=Montserrat:ital,wght@0,300;1,200&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background-color: #E5E5E5;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+}
+/* header {
+    
+} */
+.logo {
+    width: 30px;
+    height: 40px;
+
+    margin: 40px 0px 0px 80px;
+}
+main {
+    display: flex;
+    justify-content: center;
+    height: 750px;
+    
+}
+
+.texto{
+    outline: none;
+
+    padding: 10% 22%;
+    font-size: 32px;
+    
+    border: none;
+}
+.texto::placeholder{
+    color: #0A3871;
+    font-weight: bold;
+}
+
+.caja-principal{
+    height: 80%;
+}
+.Ingresar-texto {
+    width: 65%;
+}
+
+.info-accion{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+.info-relevante{
+    color: #495057;
+    font-size: 12px;
+    font-family: Inter;
+    width: 55%;
+    margin-bottom: 15px;
+}
+.signoInterrogacion {
+    width: 11px;
+}
+
+.botones {
+
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+   /* align-content: space-between; */
+    /* justify-content: space-around; */
+
+   /* padding: 24px; */
+   gap: 8px;
+
+   /* width: 100%; */
+}
+button {
+    width: 328px;
+    height: 67px;
+   
+}
+
+.bot-encriptar{
+    background: #0A3871;
+    border-radius: 24px;
+    border: none;
+    color: #FFFFFF;
+}
+.bot-desencriptar{
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+}
+
+.codificador {
+    
+    height: 80vh;
+    width: 20%;
+    
+    background-color: #FFFFFF;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 0px 20px;
+    text-align: center;
+    border-radius: 30px;
+    
+    
+}
+.buscadora {
+    background: #FFFFFF;
+    align-self: center;
+    width: 336px;
+    height: 304px;
+}
+.mensaje-inicial {
+    background: #FFFFFF;
+    font-size: 24px;
+    font-weight: bold;
+    color: #343A40;
+    padding: 35px;
+}
+.mensaje-pedir {
+    background: #FFFFFF;
+    font-size: 16px;
+    color: #495057;
+}
