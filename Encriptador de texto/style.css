@@ -102,8 +102,6 @@ button {
     padding: 0px 20px;
     text-align: center;
     border-radius: 30px;
-    
-    
 }
 .buscadora {
     background: #FFFFFF;
@@ -121,10 +119,13 @@ button {
 
 .contendor-texto {
     width: 100%;
-    height: 200px;
+    height: 80%;
     overflow: auto;
     word-wrap: break-word;
     background-color: #FFFFFF;
+
+    text-align:start;
+    margin-top: 15px;
   }
   .mensaje{
     font-size: 24px;
@@ -146,33 +147,77 @@ button {
 }
 .bot-copiar{
     align-self: center;
-    font-size: 15px;
-    background-color: lightblue;
-    width: 35%;
-    border-radius: 30px;
+    font-size: 16px;
+    background-color: #FFFFFF;
+    width: 70%;
+    height: 60px;
 
-    margin-top: 20%;
+    border-radius: 32px;
+
+    margin: 8%;
 }
 
 
 @media screen and (max-width: 480px){
+    header {
+        height: auto;
+    }
     main {
         display: flex;
         flex-direction: column;
         align-items: center;
+        height: auto;
     }
     .logo {
-        margin: 20px 0px 0px 40px;
+        
+        margin: 20px 0px 10px 40px;
     }
+
+    .caja-principal{
+        margin-top: 40px;
+        height: auto;
+    }
+
     .texto {
         text-align: center;
-        padding: 60px 15px 0 15px;
+        height: auto;
+        /* margin-bottom: 30px; */
+        padding: 30px 20px 20px 20px;
     }
     .Ingresar-texto {
         width: 100%;
     }
-    .caja-principal{
-        height: 60%;
+    
+
+.info-relevante{
+    font-family: Inter;
+    text-align: start;
+    width: 80%;
+    margin: 20px;
+}
+
+
+
+
+
+    .codificador { 
+        height: auto;
+        margin: 30px;
+        padding: 10px 20px;
+    }
+
+    .mensaje-inicial {
+        background: #FFFFFF;
+        font-size: 24px;
+        font-weight: bold;
+        
+        padding: 20px;
+    }
+    .mensaje-pedir {
+        background: #FFFFFF;
+        font-size: 16px;
+        color: #495057;
+        margin-bottom: 10px;
     }
 
     .botones{
@@ -187,12 +232,14 @@ button {
     }
 
     .codificador{
-        /* height: 50%; */
+        height: auto;
         width: 80%;
     }
     .buscadora{
         display: none;
     }
+    
+
 
 }
 @media screen and (max-width: 900px){
@@ -200,7 +247,7 @@ button {
         display: flex;
         flex-direction: column;
         align-items: center;
-
+/* 
     }
     .logo {
         margin: 20px 0px 0px 40px;
@@ -218,15 +265,15 @@ button {
         justify-content: center;
         align-items: center;
         /* width: 90vw; */
-    }
-    .bot-desencriptar{
+    /* } */
+    /* .bot-desencriptar{
         margin-top: 5%;
     }
 
     .codificador{
-        /* height: 50%; */
         width: 80%;
         margin-bottom: 10%;
+        
     }
     .buscadora{
         display: none;
@@ -235,7 +282,7 @@ button {
     .nuevo-contenido{
         font-size: 50px;
         color: red;
-    }
+    } */
 
    
 
@@ -245,4 +292,4 @@ button {
 
 
 
-}
+    }}
